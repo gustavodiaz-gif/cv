@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gustavo David Diaz Maldonado - Administrador de Sistemas TI | Cloud, DevOps & SRE</title>
+    <meta name="description" content="CV profesional de Gustavo David Diaz Maldonado, Administrador de Sistemas TI certificado en ITIL v4 y especializándose en Cloud, DevOps y SRE.">
+    <!-- Google Fonts: Outfit for headings, Inter for body text -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+    
+    <!-- Floating Toolbar for Web Controls -->
+    <div class="web-controls" id="webControls">
+        <button id="themeToggle" class="control-btn" title="Cambiar Tema" aria-label="Cambiar Tema">
+            <svg class="icon sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="5"></circle>
+                <line x1="12" y1="1" x2="12" y2="3"></line>
+                <line x1="12" y1="21" x2="12" y2="23"></line>
+                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                <line x1="1" y1="12" x2="3" y2="12"></line>
+                <line x1="21" y1="12" x2="23" y2="12"></line>
+                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+            </svg>
+            <svg class="icon moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+        </button>
+        <button id="printBtn" class="control-btn primary-btn" title="Guardar PDF / Imprimir" aria-label="Guardar PDF / Imprimir">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="6 9 6 2 18 2 18 9"></polyline>
+                <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+                <rect x="6" y="14" width="12" height="8"></rect>
+            </svg>
+            <span>PDF / Imprimir</span>
+        </button>
+    </div>
+
+    <!-- Main CV Wrapper -->
+    <div class="cv-wrapper" id="cvWrapper">
+        <div class="cv-container">
+            
+            <!-- Left Sidebar (Contact, Education, Certs, Skills, Languages) -->
+            <aside class="cv-sidebar">
+                
+                <!-- Contact Section -->
+                <section class="sidebar-section contact-info-section">
+                    <h2 class="sidebar-title">Contacto</h2>
+                    <ul class="contact-list">
+                        <li>
+                            <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                <circle cx="12" cy="10" r="3"></circle>
+                            </svg>
+                            <span>Santo Domingo, RD</span>
+                        </li>
+                        <li>
+                            <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                            </svg>
+                            <a href="tel:+18495953395">(849) 595-3395</a>
+                        </li>
+                        <li>
+                            <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                            <a href="mailto:gustavodaviddiaz@icloud.com">gustavodaviddiaz@icloud.com</a>
+                        </li>
+                        <li>
+                            <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                <rect x="2" y="9" width="4" height="12"></rect>
+                                <circle cx="4" cy="4" r="2"></circle>
+                            </svg>
+                            <a href="https://linkedin.com/in/gustavodiaz00" target="_blank" rel="noopener noreferrer">linkedin.com/in/gustavodiaz00</a>
+                        </li>
+                        <li>
+                            <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                            </svg>
+                            <a href="https://github.com/gustavodiaz-gif" target="_blank" rel="noopener noreferrer">github.com/gustavodiaz-gif</a>
+                        </li>
+                    </ul>
+                </section>
+
+                <!-- Certifications Section -->
+                <section class="sidebar-section certifications-section">
+                    <h2 class="sidebar-title">Certificaciones</h2>
+                    <ul class="certs-list">
+                        <li>
+                            <div class="cert-status-badge active">Certificado</div>
+                            <span class="cert-name">ITIL 4 Foundation</span>
+                        </li>
+                        <li>
+                            <div class="cert-status-badge active">Certificado</div>
+                            <span class="cert-name">ITIL 4 Specialist</span>
+                        </li>
+                        <li>
+                            <div class="cert-status-badge learning">En formación</div>
+                            <span class="cert-name">AWS Certified Solutions Architect – Associate <span class="cert-meta">(examen previsto 2026)</span></span>
+                        </li>
+                    </ul>
+                </section>
+
+                <!-- Skills Section -->
+                <section class="sidebar-section skills-section">
+                    <h2 class="sidebar-title">Habilidades Técnicas</h2>
+                    
+                    <div class="skill-group">
+                        <h3>Sistemas</h3>
+                        <div class="skill-badges">
+                            <span class="skill-badge">Linux</span>
+                            <span class="skill-badge">Windows Server</span>
+                            <span class="skill-badge">macOS</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-group">
+                        <h3>Cloud / Infra</h3>
+                        <div class="skill-badges">
+                            <span class="skill-badge">AWS <small>(en formación)</small></span>
+                            <span class="skill-badge">Virtualización</span>
+                            <span class="skill-badge">Networking <small>(TCP/IP, DNS, VPN)</small></span>
+                        </div>
+                    </div>
+
+                    <div class="skill-group">
+                        <h3>Contenedores</h3>
+                        <div class="skill-badges">
+                            <span class="skill-badge">Docker</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-group">
+                        <h3>Redes / Self-Hosting</h3>
+                        <div class="skill-badges">
+                            <span class="skill-badge">Tailscale <small>(mesh VPN)</small></span>
+                            <span class="skill-badge">AdGuard <small>(DNS)</small></span>
+                            <span class="skill-badge">Reverse Proxy</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-group">
+                        <h3>ITSM / ITAM</h3>
+                        <div class="skill-badges">
+                            <span class="skill-badge">Atlassian Jira <small>(Service Management, Asset Management)</small></span>
+                        </div>
+                    </div>
+
+                    <div class="skill-group">
+                        <h3>Sistemas Empresariales</h3>
+                        <div class="skill-badges">
+                            <span class="skill-badge">RIS/PACS</span>
+                            <span class="skill-badge">MedicalCore <small>(ERP médico)</small></span>
+                            <span class="skill-badge">SAP Business One</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-group">
+                        <h3>Metodologías</h3>
+                        <div class="skill-badges">
+                            <span class="skill-badge">ITIL v4</span>
+                            <span class="skill-badge">Gestión de Incidentes</span>
+                            <span class="skill-badge">Gestión de Cambios</span>
+                            <span class="skill-badge">Mejora Continua</span>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Languages Section -->
+                <section class="sidebar-section languages-section">
+                    <h2 class="sidebar-title">Idiomas</h2>
+                    <ul class="languages-list">
+                        <li>
+                            <span class="lang-name">Español</span>
+                            <span class="lang-level">nativo</span>
+                        </li>
+                        <li>
+                            <span class="lang-name">Inglés</span>
+                            <span class="lang-level">lectura técnica fluida y conversación en formación activa</span>
+                        </li>
+                    </ul>
+                </section>
+
+                <!-- Education Section -->
+                <section class="sidebar-section education-section">
+                    <h2 class="sidebar-title">Educación</h2>
+                    <div class="education-item">
+                        <span class="edu-degree">Licenciatura en Sistemas</span>
+                        <span class="edu-school">Universidad del Caribe (UNICARIBE)</span>
+                        <span class="edu-date">Graduación esperada 2027</span>
+                    </div>
+                </section>
+
+            </aside>
+
+            <!-- Right Main Column (Profile, Experience, Projects) -->
+            <main class="cv-main">
+                
+                <!-- Main Header -->
+                <header class="cv-header">
+                    <h1 class="cv-name">GUSTAVO DAVID DIAZ MALDONADO</h1>
+                    <div class="cv-titles">
+                        <span class="title-badge">Administrador de Sistemas TI</span>
+                        <span class="title-badge outline">En transición hacia Cloud / DevOps / SRE</span>
+                        <span class="title-badge active-accent">ITIL v4</span>
+                    </div>
+                </header>
+
+                <!-- Professional Profile -->
+                <section class="main-section profile-section">
+                    <h2 class="section-title">
+                        <svg class="section-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="12" cy="7" r="4"></circle>
+                        </svg>
+                        Perfil Profesional
+                    </h2>
+                    <p class="profile-text">
+                        Profesional de TI con más de 14 años de experiencia operando sistemas críticos en entornos hospitalarios y de manufactura. Hoy gestiono y administro parte de los sistemas de un centro médico hospitalario con más de 400 usuarios y plataformas core (RIS/PACS, MedicalCore — ERP médico, SAP Business One), con foco en gestión de incidentes, planes de contingencia y mejora continua. ITIL 4 Foundation y Specialist certificado; en transición activa hacia roles de Cloud / DevOps / SRE con AWS Solutions Architect Associate en estudio y homelab personal sobre Docker, Linux y redes.
+                    </p>
+                </section>
+
+                <!-- Professional Experience -->
+                <section class="main-section experience-section">
+                    <h2 class="section-title">
+                        <svg class="section-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                            <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                            <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                        </svg>
+                        Experiencia Profesional
+                    </h2>
+                    
+                    <div class="timeline">
+                        
+                        <!-- Job 1: CEMDOE -->
+                        <article class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <div class="job-header">
+                                    <h3 class="job-role">Administrador de Sistemas Médicos</h3>
+                                    <span class="job-company">CEMDOE</span>
+                                    <span class="job-date">2021 – Presente</span>
+                                </div>
+                                
+                                <div class="job-trajectory">
+                                    <strong>Trayectoria interna:</strong> Soporte Técnico <span>→</span> Analista <span>→</span> Especialista <span>→</span> Administrador de Sistemas Médicos.
+                                </div>
+
+                                <ul class="job-bullet-points">
+                                    <li>Gestiono y administro parte de los sistemas médicos hospitalarios atendiendo a 400+ usuarios, sobre plataformas core: RIS/PACS, ERP médico MedicalCore, SAP Business One, correo corporativo y sistema de videovigilancia.</li>
+                                    <li>Diseñé e implementé la mesa de servicio (ITSM) del departamento de TI sobre Atlassian Jira, estableciendo procesos formales de gestión de incidentes, requerimientos y cambios alineados a ITIL v4.</li>
+                                    <li>Implementé el sistema de inventario y gestión de activos tecnológicos (CMDB) sobre Jira, dando trazabilidad y control sobre el ciclo de vida del hardware y software de la organización.</li>
+                                    <li>Lideré el plan de contingencia tecnológica del centro, asegurando un 99% de disponibilidad de los servicios críticos ante caídas y eventos disruptivos.</li>
+                                    <li>Participé como referente de sistemas en la transición del centro de modelo ambulatorio a modelo hospitalario, asegurando que la infraestructura tecnológica acompañara el cambio de operación.</li>
+                                    <li>Gestiono incidentes críticos end-to-end (ej.: recuperación de PBX caída, fallos de sistemas core), incluyendo la activación de planes de contingencia y coordinación con proveedores externos.</li>
+                                    <li>Actúo como puente técnico-funcional entre la gerencia y el equipo técnico: traduzco necesidades del negocio en requerimientos accionables y coordino su implementación.</li>
+                                </ul>
+                            </div>
+                        </article>
+
+                        <!-- Job 2: Eaton Corporation -->
+                        <article class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <div class="job-header">
+                                    <h3 class="job-role">Soporte Técnico</h3>
+                                    <span class="job-company">Eaton Corporation</span>
+                                    <span class="job-date">2011 – 2021</span>
+                                </div>
+
+                                <ul class="job-bullet-points">
+                                    <li>Brindé soporte técnico N1 y N2 a usuarios internos en entorno de manufactura, resolviendo incidencias de hardware, software, conectividad e infraestructura.</li>
+                                    <li>Coordiné con proveedores externos servicios de soporte, mantenimiento e instalaciones, dando seguimiento al cumplimiento de tiempos comprometidos.</li>
+                                    <li>Asumí funciones operativas equivalentes a supervisor de tecnología, liderando coordinación del equipo y reportes técnicos al área TI.</li>
+                                </ul>
+                            </div>
+                        </article>
+
+                    </div>
+                </section>
+
+                <!-- Personal Projects -->
+                <section class="main-section projects-section">
+                    <h2 class="section-title">
+                        <svg class="section-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                            <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+                        </svg>
+                        Proyectos Personales
+                    </h2>
+                    
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3 class="project-name">Homelab — Laboratorio Cloud/DevOps</h3>
+                        </div>
+                        <p class="project-description">
+                            Laboratorio sobre macOS orientado a Platform Engineering: contenedores, redes privadas, observabilidad y automatización.
+                        </p>
+                        <ul class="project-bullet-points">
+                            <li><strong>Stack base:</strong> Docker (multi-contenedor), Tailscale (mesh VPN para acceso remoto seguro) y AdGuard (DNS interno con filtrado).</li>
+                            <li><strong>Infraestructura como código:</strong> scripts de despliegue versionados en GitHub; primeros módulos de Terraform y playbooks de Ansible en práctica.</li>
+                            <li><strong>Próximos pasos:</strong> Kubernetes (k3s), Prometheus + Grafana para observabilidad, y CI/CD con GitHub Actions.</li>
+                        </ul>
+                        <div class="project-repo">
+                            <strong>Repo:</strong> <a href="https://github.com/gustavodiaz-gif/homelab" target="_blank" rel="noopener noreferrer">github.com/gustavodiaz-gif/homelab</a>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Continuous Learning Section -->
+                <section class="main-section learning-section">
+                    <h2 class="section-title">
+                        <svg class="section-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                            <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                            <path d="M6 12v5c0 2 2 3 6 3s6-1 6-3v-5"></path>
+                        </svg>
+                        Aprendizaje continuo
+                    </h2>
+                    <p class="learning-text">
+                        <strong>Plataformas:</strong> A Cloud Guru / AWS Skill Builder (preparación SAA-C03), documentación oficial de Kubernetes, Linux Foundation training.
+                    </p>
+                </section>
+
+            </main>
+
+        </div>
+    </div>
+
+    <!-- Script connection -->
+    <script src="script.js"></script>
+</body>
+</html>
